@@ -54,7 +54,8 @@ public class MovieDetailActivity extends AppCompatActivity {
     }
 
     private void getMovieDetails(final String Id) {
-        final JsonObjectRequest movieDetails = new JsonObjectRequest(Request.Method.GET, Constants.URL_LEFT + Constants.URL_T + Id, new Response.Listener<JSONObject>() {
+        final JsonObjectRequest movieDetails = new JsonObjectRequest(Request.Method.GET, Constants.URL_LEFT + Constants.URL_T + Id,
+                new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
                 Log.d("URl : ", Constants.URL_LEFT + Constants.URL_T + Id);
