@@ -6,7 +6,7 @@ package android.subham.moviesearch.Util;
 
 public class Constants {
 
-    public static final String URL_LEFT = "http://www.omdbapi.com/?apikey=decdd075";
+    public static final String URL_LEFT = "http://www.omdbapi.com/?apikey=[API-KEY-HERE]";
     public static final String URL_S = "&s=";
     public static final String URL_T = "&i=";
 
